@@ -1,0 +1,7 @@
+1. 
+a. When you resume the game, does the runner resume exactly where she left off?
+-   The runner does appear to be resume where they left off exactly.
+b. Comment out the pause() and unpause() methods in the jump behavior and try again. Does the runner still resume exactly where she left off?
+-   No; the runner when paused mid-jump appears to pop back down to the ground when the game is un-paused.
+3. Change the runner’s JUMP_DURATION constant from 1000 ms to 2000 ms and restart the game. The runner should jump just as high, but the jump should take twice as long. Is that the case?
+-   Yes the runner jumps up to the same height but it does take twice as long.
